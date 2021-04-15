@@ -1,5 +1,6 @@
 <h1>MERN Project Start Automation</h1>
-A zsh script to create a MERN project with a client and server folder setup
+A slighlty opinionated zsh script to create a MERN project with a client and server folder setup (includes redux and axios)
+
 
 <h2>Installation (for ZSH on mac terminal)</h2>
 <ol>
