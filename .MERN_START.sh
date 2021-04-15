@@ -37,7 +37,7 @@ import App from "./App"
   # ---------------------------------------------------------------------------------------------
   # writing to src/App.js
 echo 'import React from "react"
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
+import { BrowserRouter as Router, Route } from "react-router-dom"
 \nconst App = () => {
 \treturn (
 \t   <Router>
