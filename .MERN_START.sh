@@ -13,8 +13,9 @@ function MERN_START() {
   # Configuring the client directory
   cd client && npx create-react-app ./ && npm i redux redux-thunk react-redux axios react-router-dom dotenv
   # ---------------------------------------------------------------------------------------------
-  # add proxy to package.json
-  sed -i '' -e '4s/^//p; 4s/^.*/  "proxy": "http:\/\/localhost:5000",/' package.json  
+  # add proxy to package.json and add .env to .gitignore
+  sed -i '' -e '4s/^//p; 4s/^.*/  "proxy": "http:\/\/localhost:5000",/' package.json
+  echo ".env" >> .gitignore 
   # ---------------------------------------------------------------------------------------------
   #customizing the src directory
   rm -r src && mkdir src src/components src/api src/actions src/reducers src/constants  && touch src/index.js src/App.js src/api/index.js src/actions/action.js src/reducers/index.js src/reducers/reducer.js src/constants/actionTypes.js .env
