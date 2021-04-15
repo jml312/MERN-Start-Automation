@@ -9,6 +9,5 @@ A slighlty opinionated zsh script to create a MERN project with a client and ser
   <li>Restart the terminal and run "MERN_START <strong>NAME-OF-YOUR-PROJECT</strong>"</li>
 </ol>
 
-<h3>Output</h3>
 ![Start Output Image](https://github.com/jml312/MERN-Start-Automation/blob/main/start.png?raw=true)
 ![End Output Image](https://github.com/jml312/MERN-Start-Automation/blob/main/end.png?raw=true)
