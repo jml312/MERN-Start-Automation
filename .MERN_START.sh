@@ -11,7 +11,7 @@ function MERN_START() {
   # ---------------------------------------------------------------------------------------------
   # ---------------------------------------------------------------------------------------------
   # Configuring the client directory
-  cd client && npx create-react-app ./ && npm i redux redux-thunk react-redux axios dotenv
+  cd client && npx create-react-app ./ && npm i redux redux-thunk react-redux axios react-router-dom dotenv
   # ---------------------------------------------------------------------------------------------
   # add proxy to package.json
   sed -i '' -e '4s/^//p; 4s/^.*/  "proxy": "http:\/\/localhost:5000",/' package.json  
@@ -37,9 +37,14 @@ import App from "./App"
   # ---------------------------------------------------------------------------------------------
   # writing to src/App.js
 echo 'import React from "react"
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
 \nconst App = () => {
 \treturn (
-\t   <div>🚀</div>
+\t   <Router>
+\t        <Route path="/">
+\t            🚀
+\t        </Route>
+\t   </Router>
 \t)
 }
 \nexport default App' >> src/App.js
