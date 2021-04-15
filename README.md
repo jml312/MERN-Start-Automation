@@ -1,5 +1,5 @@
 <h1>MERN Project Start Automation</h1>
-A slighlty opinionated zsh script to create a MERN project with a client and server folder setup (includes redux, react router, and axios)
+A slighlty opinionated zsh script to create a MERN project with a client and server folder setup (includes redux, react router, and axios). The process should be about one minute.
 
 
 <h2>Installation (for ZSH on mac terminal)</h2>
