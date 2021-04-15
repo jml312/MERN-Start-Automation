@@ -6,5 +6,5 @@ A zsh script to create a MERN project with a client and server folder setup
   <li></li>
   <li>Run "open -a TextEdit ~/.zshrc"</li>
   <li>Paste "source ~/.MERN_START.sh" at the bottom of the file</li>
-  <li>Restart the terminal and run " MERN_START __NAME-OF-YOUR-FILE__"</li>
+  <li>Restart the terminal and run " MERN_START <strong>NAME-OF-YOUR-FILE</strong>"</li>
 </ol>
